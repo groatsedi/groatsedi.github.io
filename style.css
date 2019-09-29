@@ -1,0 +1,111 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("assets/bg.jpg");
+  
+    /* Full height */
+    height: 100%;
+    margin: 0%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-container {
+    width: 20%;
+    margin: auto;
+  }
+  .image-container img {
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 100%;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    width: 100vw;
+    height: 100vh;
+  }
+  .image-container2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-items: center;
+    align-items: center;
+  }
+  .image-container2 img {
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 100%;
+    max-width: 422px;
+  }
+  .intro-container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    color: beige;
+    font-weight: 1000;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .text-container {
+    display: grid;
+    grid-template-rows: 10% 10% 10% 70%;
+    grid-template-columns: 100%;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    align-items: top;
+    justify-items: center;
+  }
+  .caption-container {
+    grid-row-start: 1;
+    color: beige;
+    font-weight: 1000;
+    line-height: 1.1;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .email-container {
+    grid-row-start: 2;
+    font-size: 20px;
+    color: beige;
+    font-weight: 500;
+    line-height: 1.1
+  }
+  .email-container a {
+    color: beige;
+  }
+  .gram-container {
+    grid-row-start: 3;
+  }
+  .gram-icon {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 25px;
+    object-fit: cover;
+
+  }
+  .filler-container {
+    grid-row-start: 4;
+  }
+
+  .gram-container > a {
+    text-decoration: none;
+    color: beige;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
